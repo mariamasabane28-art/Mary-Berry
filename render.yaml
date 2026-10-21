@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: girls-girl-women-hub
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
