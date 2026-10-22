@@ -2,5 +2,5 @@ services:
   - type: web
     name: girls-girl-women-hub
     runtime: static
-    buildCommand: ""
-    staticPublishPath: .
+    buildCommand: "mkdir -p build && cp index.html style.css script.js build/"
+    staticPublishPath: build
